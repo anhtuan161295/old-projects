@@ -6,7 +6,7 @@ The legacy services don't have the direct access to database, only download cont
 There are new requirements about the data formats and the customers want to use them for the content migration.  
 The customers will be the people who do the migration.  
 We must provide them the packaged, easy, automated solution.  
-Code as a infrastructure templates will be used to reduce manual tasks as much as possible.   
+Code as an infrastructure templates will be used to reduce manual tasks as much as possible.   
 
 ## Technologies used
 Spring Boot  
@@ -17,6 +17,7 @@ any database e.g. Amazon Aurora
 any container orchestration tool e.g. Amazon ECS  
 any file storage e.g. Amazon EFS  
 secret management tool e.g. AWS Secret Manager
+code as an infrastructure tool e.g. AWS CloudFormation
 
 ## Overview process
 ![This is an image](overview.png)
